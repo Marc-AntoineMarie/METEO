@@ -11,7 +11,7 @@ export default function Semaine() {
   const [city, setCity] = useState("Paris"); // Ville pour l'API
 
   const fetchWeatherData = async (city) => {
-    const apiKey = "a0d4afb7a33d65acd407c274c6f11b34";
+    const apiKey = "*********************";
 
     try {
       setLoading(true);
