@@ -7,7 +7,7 @@ export default function Heures() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [inputCity, setInputCity] = useState(city); // État pour l'input de la ville
-  const apiKey = "a0d4afb7a33d65acd407c274c6f11b34";
+  const apiKey = "*********************";
 
   useEffect(() => {
     const fetchWeatherData = async () => {
