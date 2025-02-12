@@ -61,12 +61,12 @@ export default function Semaine({ datas }) {
     const [error, setError] = useState(null);  
     const [city, setCity] = useState('Paris');
 
-    const apiKey = "a0d4afb7a33d65acd407c274c6f11b34";  
+    const apiKey = "*********************";  
     const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&lang=en&units=metric`;  
 
     useEffect(() => {  
         const fetchWeatherData = async () => {  
-            const apiKey = "a0d4afb7a33d65acd407c274c6f11b34";  
+            const apiKey = "*********************";  
             const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&lang=en&units=metric`;  
             
             try {  
@@ -124,7 +124,7 @@ export default function Semaine() {
     const [city, setCity] = useState('Paris'); // Ville pour l'API  
 
     const fetchWeatherData = async (city) => {  
-        const apiKey = "a0d4afb7a33d65acd407c274c6f11b34";  
+        const apiKey = "*********************";  
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&lang=en&units=metric`;  
         
         try {  
@@ -192,7 +192,7 @@ export default function Semaine() {
     const [city, setCity] = useState('Paris');  
 
     const fetchWeatherData = async (city) => {  
-        const apiKey = "a0d4afb7a33d65acd407c274c6f11b34";  
+        const apiKey = "*********************";  
         
         // URL pour obtenir les coordonnées de la ville  
         const locationUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;  
